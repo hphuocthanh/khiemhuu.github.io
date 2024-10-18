@@ -1,0 +1,97 @@
+/* src/styles/Experience.css */
+.experience {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .experience-item {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-5px);
+    background-color: #172c52;
+  }
+  
+  .experience-date {
+    color: var(--light-blue);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .experience-title1 {
+    font-size: 1.3rem;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #ccd6f6;
+  }
+  .experience-title2 {
+    font-size: 1.1rem;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #ccd6f6;
+  }
+  .experience-title3 {
+    font-size: 1.0rem;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #ccd6f6;
+  }
+  
+  .experience-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #8892b0;
+    margin-bottom: 15px;
+  }
+  
+  .experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .experience-tags span {
+    background-color: #112240;
+    color: var(--light-blue);
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid var(--light-blue);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .experience-tags span:hover {
+    background-color: var(--light-blue);
+    color: #0a192f;
+  }
+.education-tags {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .education-tags span {
+    color: var(--light-blue);
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .education-tags span strong{
+    font-weight: 700;
+    text-transform: uppercase;
+  }
