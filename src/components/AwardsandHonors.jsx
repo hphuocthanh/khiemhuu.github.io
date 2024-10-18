@@ -1,6 +1,6 @@
 // src/components/AwardsAndHonors.jsx
 import React from 'react';
-import './AwardsAndHonors.css';
+import './AwardsandHonors.css';
 
 const AwardsAndHonors = () => {
   return (
