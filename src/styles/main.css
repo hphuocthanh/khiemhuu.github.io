@@ -23,7 +23,7 @@ body {
     gap: 30px;
 }
 .header {
-    width: 30vw;
+    width: 50vw;
 }
 a {
   color: var(--text-color);
