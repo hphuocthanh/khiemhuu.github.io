@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://khiemhuu.github.io/khiemhuu.github.io",
+  "homepage": "https://huukhiemnguyen.me/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
